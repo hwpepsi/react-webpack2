@@ -7,6 +7,9 @@ class App extends React.Component {
         return <div id="editor">       	
         	<p>welcome to index!</p>
         	<a href="troom.html">跳转</a>
+        	{
+        		__DEV__?console.log('i am a test'):''
+        	}
         </div>
     }
 }
